@@ -1,2 +1,5 @@
-const nome = 'Alberto Andrade';
-console.log(nome);
+const dados = 'Guimarães Rosa';
+
+const limparDados = (arr) => arr.length;
+
+console.log(limparDados(dados));

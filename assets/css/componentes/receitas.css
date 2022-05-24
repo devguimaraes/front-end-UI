@@ -1,0 +1,64 @@
+.receitas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 5rem 0;
+  background-color: #e5e5e5;
+}
+
+.receita {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  margin: 4rem;
+  background-color: whitesmoke;
+}
+
+.receita__conteudo {
+  padding: 1rem;
+}
+
+.receita__imagem {
+  width: 100%;
+  height: auto;
+}
+
+
+.receita__titulo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.68rem;
+}
+
+.receita__descricao {
+  font-size: 1.43rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.receita__botao {
+  width: 115px;
+  height: 35.86px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.313rem;
+
+
+  background: #8D0606;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+  transition: all .1s ease-in-out;
+}
+
+.receita__botao:hover {
+  cursor: pointer;
+  background-color: #620404;
+}
