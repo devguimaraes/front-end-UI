@@ -37,3 +37,31 @@
 .cabecalho__link:hover {
   border-color: #808080;
 }
+
+
+/* Media Queries */
+
+
+
+@media screen and (max-width: 1024px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .cabecalho__imagem {
+    display: none;
+  }
+
+  .menu__lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  .lista__item {
+    font-size: 1rem;
+  }
+}

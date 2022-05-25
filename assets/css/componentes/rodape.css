@@ -1,0 +1,53 @@
+.rodape {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+
+  color: #fdfdfd;
+
+  padding: 1.5625rem 5rem;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: #C4C4C4C4;
+}
+
+.rodape__titulo {
+  padding-right: 2rem;
+}
+
+.rodape__paragrafo a {
+  text-decoration: none;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 38px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.rodape__paragrafo a:first-child {
+  margin-right: 1rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .rodape {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rodape__titulo {
+    padding: none;
+  }
+}

@@ -1,0 +1,114 @@
+.quem-somos {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem;
+}
+
+.pessoas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pessoa {
+  display: flex;
+  flex-direction: column;
+}
+
+.pessoa__imagem {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: #8D0606;
+}
+
+.pessoa__imagem--andreia {
+  background-image: url(../../img/pessoas/andreia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pessoa__imagem--marcela {
+  background-image: url(../../img/pessoas/marcela.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pessoa__imagem--roberta {
+  background-image: url(../../img/pessoas/roberta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Usar esta Classe para subistuir em todos os titulos da página é assim diminuir o código repetitivo  */
+.titulosPagina {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #8D0606;
+}
+
+/* Usar a Classe acima para subistuir em todos os titulos da página é assim diminuir o código repetitivo  */
+
+.quem-somos__titulo {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.188rem;
+  line-height: 5.625rem;
+  text-align: center;
+
+  color: #8D0606;
+}
+
+.quem-somos__descricao {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 2.063rem;
+  text-align: center;
+
+  color: #8C8888;
+}
+
+
+.pessoa__nome {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.pessoa__funcao {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  margin: 0rem 1rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .quem-somos {
+    padding: 0;
+  }
+
+  .quem-somos__descricao {
+    font-size: 1.2rem;
+  }
+
+  .pessoas {
+    justify-content: space-around;
+  }
+
+  .pessoa__funcao {
+    margin: 1rem 1rem;
+  }
+}
