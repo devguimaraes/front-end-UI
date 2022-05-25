@@ -40,4 +40,8 @@
     font-size: 4rem;
     top: 50%;
   }
+
+  .banner__img {
+    height: calc(100vh - 3.188rem);
+  }
 }
